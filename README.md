@@ -67,13 +67,13 @@ Just, you need to get the **masked** image(Mask allows us to focus only on the p
 
 ```
 imgColorLips = cv.addWeighted(image, 1, imgColorLips, 0.6, 0)
-# imgColorLips = cv.addWeighted(imgOriginalGray, 1, imgColorLips, 0.6, 0)
+#### imgColorLips = cv.addWeighted(imgOriginalGray, 1, imgColorLips, 0.6, 0)
 ```
 ### Output:
 ![plot](https://github.com/sahilgarg3/Face-Filter/blob/main/Pictures/Face%20Filters%202.png)
 ---
 ```
-# imgColorLips = cv.addWeighted(image, 1, imgColorLips, 0.6, 0)
+#### imgColorLips = cv.addWeighted(image, 1, imgColorLips, 0.6, 0)
 imgColorLips = cv.addWeighted(imgOriginalGray, 1, imgColorLips, 0.6, 0)
 ```
 ### Output:
